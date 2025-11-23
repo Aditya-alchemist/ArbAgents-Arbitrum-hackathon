@@ -1,0 +1,43 @@
+.withdraw-top-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 22px 26px;
+  background: rgba(59,130,246,0.12);
+  border-radius: 12px 12px 0 0;
+}
+
+.withdraw-select {
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(59,130,246,0.06);
+  color: #fff;
+  border: 1px solid rgba(59,130,246,0.18);
+}
+
+.withdraw-btn {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 9px 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.withdraw-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.withdraw-message {
+  margin-left: 24px;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(30,41,59,0.93);
+  border-radius: 8px;
+  padding: 7px 18px;
+  min-width: 140px;
+}
